@@ -837,7 +837,7 @@ body {
 
 .modal-form-btn {
   display: block;
-
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   background: #4d5ae5;
