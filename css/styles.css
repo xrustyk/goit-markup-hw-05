@@ -869,7 +869,7 @@ body {
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
-  display: inline-block;
+  display: block;
 }
 
 .modal-field-icon {
@@ -926,8 +926,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-  align-items: center;
 }
 
 .privacy-policy {
@@ -936,11 +934,11 @@ body {
 }
 
 .checkbox-span {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   margin-right: 8px;
