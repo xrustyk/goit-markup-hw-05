@@ -105,6 +105,7 @@ body {
 }
 
 .header-menu-link {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -538,11 +539,8 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   font-size: 12px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  font-family: inherit;
-  font-style: normal;
   color: #ffffff;
 }
 
@@ -551,7 +549,6 @@ body {
 }
 
 .subscribe-title {
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -752,8 +749,6 @@ body {
 }
 
 .modal-title {
-  font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -861,9 +856,6 @@ body {
 }
 
 .modal-label {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -904,12 +896,6 @@ body {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
-
-/* .modal-textarea::placeholder {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 400;
-} */
 
 .modal-textarea:focus {
   border-color: var(--primary-brand);
