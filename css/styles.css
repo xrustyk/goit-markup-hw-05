@@ -20,6 +20,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 input {
@@ -49,9 +50,9 @@ body {
 /* page wrapper */
 
 .container {
-  width: 1158px;
-  padding-right: 15px;
-  padding-left: 15px;
+  width: 100%;
+  max-width: 1158px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -191,7 +192,6 @@ body {
 }
 
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -282,7 +282,6 @@ body {
 }
 
 .services-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -299,6 +298,7 @@ body {
 
 .services-list-item {
   width: calc((100% - 48px) / 3);
+  border: 1px solid #e7e9fc;
 }
 /* our team */
 
@@ -324,7 +324,6 @@ body {
   gap: 24px;
 }
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -397,7 +396,6 @@ body {
   padding: 120px 0;
 }
 .customers-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
