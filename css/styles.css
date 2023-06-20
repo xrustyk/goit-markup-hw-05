@@ -87,7 +87,6 @@ body {
 
 .header-menu {
   display: flex;
-  align-items: center;
   gap: 40px;
 }
 
@@ -99,11 +98,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
-  display: flex;
-  align-self: center;
   margin-right: 76px;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
 }
 
 .header-menu-link {
@@ -586,7 +581,6 @@ body {
 /* portfolio */
 
 .section-portfolio-display {
-  background-color: var(--white-background);
   padding-top: 96px;
   padding-bottom: 120px;
 }
