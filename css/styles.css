@@ -74,6 +74,7 @@ body {
 .container-header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header {
@@ -141,8 +142,6 @@ body {
 
 .contacts {
   font-style: normal;
-  display: flex;
-  margin-left: 332px;
 }
 
 .contacts-menu {
@@ -156,7 +155,6 @@ body {
 }
 
 .contacts-menu-link {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -906,8 +904,6 @@ body {
 }
 
 .checkbox-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
