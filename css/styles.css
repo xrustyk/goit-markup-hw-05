@@ -194,7 +194,7 @@ body {
   color: var(--white-background);
   max-width: 496px;
   padding-bottom: 48px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .hero-button {
